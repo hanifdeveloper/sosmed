@@ -1,0 +1,8 @@
+@access_token=IGQVJVTlVwUlE1YTNwTXVPYXhHQThIeFg0RDREMVYyS2tQMXFkUWJ6SDdBbXNEbFAtZA2pHSG1ZARHZA0ZAFg5VElNVS1tcTJvZAmlZAaUpFaTE3SmRHMnEzeDlHdGtfZAzFNRWhZANnp6VmhNOFdKMk5pR1JWRAZDZD
+@api_url=https://graph.instagram.com
+
+### GET ID
+GET {{api_url}}/me?fields=id,username&access_token={{access_token}}
+
+### Search
+GET {{api_url}}/search?q=hanif&access_token={{access_token}}

@@ -1,4 +1,13 @@
 ### API INSTAGRAM
-```php
+```sh
+# basic instagram
+video: https://www.youtube.com/watch?v=X2ndbJAnQKM
+USER_ACCOUNT: muhammad.haniffffffff
+API_TOKEN: IGQVJVTlVwUlE1YTNwTXVPYXhHQThIeFg0RDREMVYyS2tQMXFkUWJ6SDdBbXNEbFAtZA2pHSG1ZARHZA0ZAFg5VElNVS1tcTJvZAmlZAaUpFaTE3SmRHMnEzeDlHdGtfZAzFNRWhZANnp6VmhNOFdKMk5pR1JWRAZDZD
+
+curl -X GET 'https://graph.instagram.com/me?fields=id,username&access_token=IGQVJVTlVwUlE1YTNwTXVPYXhHQThIeFg0RDREMVYyS2tQMXFkUWJ6SDdBbXNEbFAtZA2pHSG1ZARHZA0ZAFg5VElNVS1tcTJvZAmlZAaUpFaTE3SmRHMnEzeDlHdGtfZAzFNRWhZANnp6VmhNOFdKMk5pR1JWRAZDZD'
+
+curl -X GET 'https://graph.instagram.com/inspirasirumahkece?fields=id,username&access_token=IGQVJVTlVwUlE1YTNwTXVPYXhHQThIeFg0RDREMVYyS2tQMXFkUWJ6SDdBbXNEbFAtZA2pHSG1ZARHZA0ZAFg5VElNVS1tcTJvZAmlZAaUpFaTE3SmRHMnEzeDlHdGtfZAzFNRWhZANnp6VmhNOFdKMk5pR1JWRAZDZD'
+
 
 ```
